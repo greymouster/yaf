@@ -1,0 +1,155 @@
+html,body{
+	width: 100%;
+	background: #f5f5f5;
+	font-size: 16px;
+	color:#444444;
+	-webkit-font-smoothing: antialiased;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+
+#header{
+   background: #e14140;
+   height: 150px;
+}
+#header h3{
+	height: 64px;
+	line-height: 81px;
+	font-size: 19px;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	/*background:url(../img/back.png) 20px 55px no-repeat #e14140;*/
+}
+.main_flow{
+	height: 150px;
+	padding-left: 21.33%;
+	padding-top: 17px;
+}
+.left_flow{
+	color: #ffabab;
+	font-size: 14px;
+}
+.flow{
+	margin-top: 12px;
+	font-size: 29px;
+	color: #fff;
+}
+.end_time{
+	margin-top: 29px;
+	color: #ffabab;
+	font-size:12px;
+}
+.iccid{
+	font-size: 12px;
+	color: #fff;
+	margin-top: 8px;
+}
+#pay{
+	padding: 10px 0;
+	background: #fff;
+	height: 25px;
+}
+#pay span{
+	float: left;
+	width: 50%;
+	text-align: center;
+
+}
+#pay span:nth-of-type(1){
+	width: 49.5%;
+	border-right: 1px solid #e6e6e6;
+}
+#pay span img {
+	width: 25px;
+	height: 25px;
+    margin-right: 7px;
+	vertical-align: middle;
+}
+#pay  a{
+	 position: relative;
+	 top: 1px;
+	 color: #444444;
+}
+#content{
+	margin-top:8px;
+	background: #fff;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 10px;
+}
+.note{
+	font-size: 14px;
+	color: #808080;
+}
+.note,#content img{
+    float: right;
+}
+#content img{
+	margin: 13px 10px 14px 10px;
+	width: 10px;
+}
+#package{
+	padding: 0px 10px 0 10px;
+}
+.package_order{
+   border: 1px solid #e6e6e6;
+   background: #ffffff url(/static/xiubao/new/img/Trafficq_daisx.png) no-repeat;
+   background-size: 36px;
+   background-position: 96% 18px;
+   border-radius: 4px;
+   margin-top: 8px;
+   position: relative;
+}
+.package_img{
+	width: 72px;
+}
+
+.state{
+	position: absolute;
+	top: 18px;
+	right: 11px;
+	width: 36px;
+}
+.package_tips{
+	margin-left: 87px;
+	margin-top: 8px;
+	font-size: 13px;
+	padding-right: 10px;
+}
+.package_title{
+	height: 34px;
+	line-height: 17px;
+	margin-bottom: 5px;
+}
+.package_time{
+   font-size: 11px;
+   color: #808080;
+   margin-bottom: 5px;
+}
+.tip{
+	font-size: 12px;
+	color: #818181;
+	margin: 20px 0 0 14px;
+}
+.buy{
+	position: absolute;top: 0;left: 0;z-index: 10;width: 100%;height: 100%;background: rgba(110,110,1,0.5);display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

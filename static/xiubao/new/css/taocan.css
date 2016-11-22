@@ -1,0 +1,115 @@
+html,body{
+	    /*font-size: 100px;*/
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background: #fff;
+}
+#main{
+	width: 100%;
+	overflow: hidden;
+}
+.card_id{
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 54px;
+		height: 35px;
+		margin-bottom: 0;
+		color: #333333;
+		padding-left: 10px;
+}
+.flow_g{
+	   display: block;
+	   width: 100%;
+	   border-bottom: 1px solid #DAD4D4;
+       font-size: 14px;
+       -webkit-font-smoothing: antialiased;
+       color: #999999;
+       height: 25px;
+       padding-left: 10px;
+}
+.bao_button{
+	float: left;
+	width: 50%;
+	border-bottom: 1px solid #DAD4D4;
+    font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+}
+.active{
+	color: #e43e40;
+	
+	line-height: 49px;
+	border-bottom: 2px solid #e43e40;
+}
+
+.package_list{
+	width: 200%;
+	position: relative;
+	left: 0%;
+}
+.flow_list{
+    width: 50%;
+    float: left;
+}
+.detail{
+	color: #999;
+    padding-left: 10px;
+    line-height: 32px;
+    background: #f5f5f5;
+    border-bottom:1px solid #DAD4D4;
+}
+.flow_list a{
+	display: block;
+	border-bottom: 1px solid #DAD4D4;
+	overflow: hidden;
+    height: 92px;
+}
+.package_img{
+    width: 80px;
+    height: 92px;
+    float: left;
+    border: 0;
+}
+.package_p{
+	font-size: 14px;
+    height: 40px;
+    color: #464646;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    text-align: left;
+    padding-top: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 18px
+}
+.original_price{
+	color: #aaa;
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+.current_price{
+	color: #e43e40;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.confirm_less{
+	position: fixed;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	padding: 20px 10px;
+	background: red;
+	display: none;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+
+    /*--------------------COMMON--------------------*/
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    html {
+        font-size: 100px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    body {
+        background-color: #f5f5f5;
+        font-size: 0.16rem;
+    }
+    img {
+        max-width: 100%;
+    }
+    /* 布局（grid）（.g-）：将页面分割为几个大块，通常有头部、主体、主栏、侧栏、尾部等！ */
+    /* 模块（module）（.m-）：通常是一个语义化的可以重复使用的较大的整体！比如导航、登录、注册、各种列表、评论、搜索等！ */
+    /* 元件（unit）（.u-）：通常是一个不可再分的较为小巧的个体，通常被重复用于各种模块中！比如按钮、输入框、loading、图标等！ */
+    .u-circle {
+        background-color: #f5f5f5;
+        background-image: url("img/circle-placeholder.png");  /* 占位图 */
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .u-title {
+        font-size: 0.16rem;
+        line-height: 140%;
+        color: #333333;
+    }
+    .u-subtitle {
+        font-size: 0.14rem;
+        line-height: 120%;
+        color: #999999;
+    }
+    .u-load-more {
+        margin: 20px 8px;
+        padding: 10px 8px;
+        text-align: center;
+        line-height: 120%;
+        color: #999999;
+        background: white;
+    }
+    .u-horizontal-line {
+        background: #dddddd;
+        height: 1px;
+        width: 100%;
+    }
+    .u-vertical-line {
+        background: #dddddd;
+        height: 100%;
+        width: 1px;
+    }
+    .u-border {
+        border: 1px solid #dddddd;
+    }
+    .u-vertical-space {
+        height: 10px;
+    }
+    /* 功能（function）（.f-）：为方便一些常用样式的使用，我们将这些使用率较高的样式剥离出来，按需使用，通常这些选择器具有固定样式表现，比如清除浮动等！不可滥用！ */
+    .f-hide {
+        display: none;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+    .f-clear {
+        clear: both;
+    }
+    .f-float-right {
+        float: right;
+    }
+    .f-float-left {
+        float: left;
+    }
+    .f-align-center {
+        text-align: center;
+    }
+    .f-align-right {
+        text-align: right;
+    }
+    .f-align-left {
+        text-align: left;
+    }
+    /* 皮肤（skin）（.s-）：如果你需要把皮肤型的样式抽离出来，通常为文字色、背景色（图）、边框色等，非换肤型网站通常只提取文字色！非换肤型网站不可滥用此类！ */
+    /* 状态（.z-）：为状态类样式加入前缀，统一标识，方便识别，她只能组合使用或作为后代出现（.u-ipt.z-dis{}，.m-list li.z-sel{}），具体详见命名规则的扩展相关项。 */
+    
+    
+    /*-----------------------MEDIA------------------*/
+    @media screen and (max-width: 320px) {
+        html {
+        }
+    }

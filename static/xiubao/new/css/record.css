@@ -1,0 +1,54 @@
+.order{
+	margin: 10px ;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.order .num{
+	height: 38px;
+	line-height: 48px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #808080;
+}
+.order .status{
+	margin-right: 10px;
+}
+.order .active{
+	color: #e14040;
+}
+.tip{
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	height: 66px;
+}
+.title{
+	margin: 13px 0 7px 0;
+	line-height: 20px;
+}
+.total{
+	margin-right: 10px;
+}
+.card{
+	font-size: 12px;
+	color: #808080;
+}
+.time{
+	font-size: 12px;
+	color: #808080;
+	margin: 0px 10px 0 0;
+	height: 44px;
+	line-height: 44px;
+}
+.submit{
+	position: relative;
+	top: 9px;
+	height: 25px;
+	width: 60px;
+	line-height: 25px;
+	color: #e14040;
+	text-align: center;
+	border: 1px solid #e14040;
+	border-radius: 5px;
+}
